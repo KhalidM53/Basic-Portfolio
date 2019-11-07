@@ -26,7 +26,7 @@ body {
     border-color: #4aaaa5;
     border-style: solid;
     height: 82px;
-    width: 17%;
+    width: 30%;
     position: relative;
     background-color: #4aaaa5;
 
@@ -189,4 +189,3 @@ input[type=submit]:hover {
     overflow: hidden;
 }
 
-@media screen and (max-width: 980px) { 
