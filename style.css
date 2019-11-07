@@ -161,18 +161,7 @@ input[type=submit]:hover {
     padding-bottom: 190px;
 }
 
-.porttitle {
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-    margin-left: 23px;
-    margin-top: 95px;
-    border-color: #4aaaa5;
-    border-style: solid;
-    height: 25px;
-    width: 35%;
-    position: relative;
-    background-color: #4aaaa5
 
-}
 .footer {
     clear: both;
     position: relative;
