@@ -70,14 +70,13 @@ li a:hover {
 .main {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background-color: #ffffff;
-    float: left;
-    width: 500px;
+    width: 75%;
     text-align: left; 
     height: 410px;
     border-color: #dddddd;
-    margin-bottom: 50px;
+    margin: auto;
     border-style: solid;
-    margin-left: 125px;
+    margin-left:auto;
     color: #777777;
     padding: 20px;
     padding-bottom: 0px;
@@ -132,14 +131,13 @@ input[type=submit]:hover {
 .mainport {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background-color: #ffffff;
-    float: left;
     width: 500px;
     text-align: left; 
     height: 410px;
     border-color: #dddddd;
-    margin-bottom: 25px;
+    margin: auto;
     border-style: solid;
-    margin-left: 125px;
+    margin-left:auto;
     color: #777777;
     padding: 20px;
     padding-bottom: 340px;
@@ -148,14 +146,13 @@ input[type=submit]:hover {
 .maincontact {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background-color: #ffffff;
-    float: left;
     width: 525px;
     text-align: left; 
     height: 410px;
     border-color: #dddddd;
-    margin-bottom: 25px;
+    margin: auto;
     border-style: solid;
-    margin-left: 125px;
+    margin-left: auto;
     color: #777777;
     padding: 20px;
     padding-bottom: 190px;
