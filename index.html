@@ -1,67 +1,934 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
+    <!--meta tags-->
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="portfolio template based on HTML5">
+    <meta name="keywords" content="onepage, developer, resume, cv, personal, portfolio, personal resume, clean, modern">
+    <meta name="author" content="MouriTheme">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>About</title>
+    <!--template title-->
+    <title>Khalid</title>
 
+    <!--==========Favicon==========-->
+
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!--========== Theme Fonts ==========-->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,600,700,800" rel="stylesheet">
+
+    <!--Font Awesome css-->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!--Bootstrap css-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!--Animate css-->
+    <link rel="stylesheet" href="css/animate.css">
+
+    <!--Animated headline css-->
+    <link rel="stylesheet" href="css/jquery.animatedheadline.css">
     
+	<!--Owl carousel css-->
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/owl.theme.default.css">
+    
+	<!--Magnific popup css-->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+    
+	<!--Normalizer css-->
+	<link rel="stylesheet" href="css/normalize.css">
+
+    <!--Theme css-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--Responsive css-->
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
-<body> 
-            <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-                <a class="navbar-brand" href="#">Khalid Muhammad</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                  <ul class="navbar-nav">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="contact.html">Contact</a>
-                    </li>                    
-                    </li>
-                  </ul>
+<body>
+
+    <!--preloader starts-->
+
+
+    <div class="loader_bg"><div class="loader"></div></div>
+
+
+    <!--preloader ends-->
+
+    <!--navigation area starts-->
+
+    <header class="nav-area navbar-fixed-top">
+        <div class="container">
+            <div class="row">
+                <!--main menu starts-->
+
+                <div class="col-md-12">
+                    <div class="main-menu">
+                        <div class="navbar navbar-cus">
+                            <div class="navbar-header">
+                                <a href="index.html" class="navbar-brand"><span class="logo">Khalid</span></a> <!--edit site name here-->
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+
+                            <div class="navbar-collapse collapse">
+                                <nav>
+                                    <ul class="nav navbar-nav navbar-right">
+                                        <li class="active"><a class="smooth-menu" href="#home">Home</a></li>
+                                        <li><a class="smooth-menu" href="#about">About</a></li>
+                                        <li><a class="smooth-menu" href="#services">Services</a></li>
+                                        <li><a class="smooth-menu" href="#portfolio">Portfolio</a></li>
+                                        <li><a class="smooth-menu" href="#contact">Contact</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </nav>
-    <main class="container">
-        <div class="row">
-    <div class="main col-md-8 mr-2">
-        <h2><font color="#4aaaa5">About Me</font></h2>
-        <hr align="center" width="95%" hr style=border-color:#dddddd>
-        <img src="Bio.jpg" alt="Khalid Muhammad pic" width="220px" height="180px" align=left hspace="20">
-         <p>Hello my name is Khalid Muhammad and I am a graphics media digital designer with 5+ years of professional experience seeking a compelling
-            position to utilize skills in critical thinking, communication, and electronic media design. A team player, with strong communication, organization, and time management skills. 
-            A resourceful problem solver and possess the ability to apply my diverse knowledge of illustrations and other graphic media design skills for mutual growth and success. I bring a fresh perspective without losing the original intent. 
-            I have experience in designing logos, websites, corporate identity, catalogs, advertisements, sales collaterals, client presentations, newsletters, etc. I'm computer proficient in a wide range of industry-related computer programs. I have strong multi-tasking abilities, needing little or no supervision. 
-            I work well both independently and as a contributing member of the team.
-        </p>
-        
+
+                <!--main menu ends-->
+            </div>
+        </div>
+    </header>
+
+    <!--navigation area ends-->
+
+    <!--Banner area starts-->
+
+    <div class="banner-area" id="home">
+        <div class="banner-table">
+            <div class="banner-table-cell">
+                <div class="welcome-text">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <section class="intro animate-scale">
+
+                                    <h3>Welcome to My Website</h3>
+
+                                    <h1 class="ah-headline">
+
+                                        <span class="ah-words-wrapper">
+                                            <b class="is-visible">Khalid Muhammad</b> <!--edit the name to your name-->
+                                            <b>Full Stack Developer</b> <!--edit the designation if you are in different profession-->
+                                            <b>Graphic Designer</b> <!--edit the designation if you are in different profession-->
+                                            <b>Photographer</b> <!--edit the designation if you are in different profession-->
+                                            <b>Web Developer</b> <!--edit the designation if you are in different profession-->
+                                        </span>
+                                    </h1>
+
+                                    <a href="#contact" class="banner-btn">Contact me</a>
+
+
+                                </section>
+
+                                <div class="clearfix"></div>
+
+                                <a class="mouse-scroll hidden-xs" href="#about">
+                                    <span class="mouse">
+                                        <span class="mouse-movement"></span>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="connect col-md-3">
-            <h3>Connect with Me</h3>
-            <hr align="center" width="65%" hr style=border-color:#dddddd>
-            <a href="https://www.facebook.com/profile.php?id=100008922693094"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/F_icon.svg/1000px-F_icon.svg.png" alt="facebook logo" width="30px" height="30px" /></a>
-            <a href="https://www.linkedin.com/in/khalid-muhammad-221b7ab3/"><img src="http://thirdsectortoday.com/wp-content/uploads/2014/12/Linkedin-logo-200x200.png" alt="linkedin logo" width="30px" height="30px" /></a>
-            </hr>
+
+    <!--Banner area ends-->
+
+    <!--about area starts-->
+
+    <div class="about-area section-padding" id="about">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-4 col-xs-12 col-sm-6 col-lg-4">
+                    <div class="about-text-left">
+                        <h2>Khalid Muhammad</h2> <!--edit name-->
+                        <h3>Full Stack Developer</h3> <!--edit designation-->
+                        <p>Bio coming soon have to think of something cool to write  </p>
+                        <a href="images/about/demo-cv.png" download>Download CV &nbsp; &nbsp;<i class="fa fa-download"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                    <img src="images/about/about.png"  class="img-responsive" alt="about image"> <!--add your image here-->
+                </div>
+
+                <div class="col-md-4 col-xs-12 col-sm-12 col-lg-4">
+                    <div class="about-text-right">
+
+                        <div id="skills">
+
+                            <h3>My Skills</h3>
+
+                            <div class="row">
+
+                                <div class="col-md-12">
+
+                                    <!-- skillbar -->
+                                    <div class="skillbar" data-percent="85%"> <!--edit percentage-->
+
+                                        <h6 class="skillbar-title">HTML / CSS</h6> <!--edit skills-->
+                                        <h6 class="skillbar-percent">85%</h6> <!--edit percentage-->
+
+                                        <div class="skillbar-bar">
+                                            <div class="skillbar-child"></div>
+                                        </div>
+
+                                    </div>
+                                    <!-- end skillbar -->
+
+                                </div>
+
+
+                                <div class="col-md-12">
+
+                                    <!-- skillbar -->
+                                    <div class="skillbar" data-percent="67%"> <!--edit percentage-->
+
+                                        <h6 class="skillbar-title">jAVASCRIPT</h6> <!--edit skills-->
+                                        <h6 class="skillbar-percent">67%</h6> <!--edit percentage-->
+
+                                        <div class="skillbar-bar">
+                                            <div class="skillbar-child"></div>
+                                        </div>
+
+                                    </div>
+                                    <!-- end skillbar -->
+
+                                </div>
+
+                                <div class="col-md-12">
+
+                                    <!-- skillbar -->
+                                    <div class="skillbar" data-percent="90%"> <!--edit percentage-->
+
+                                        <h6 class="skillbar-title">ADOBE SUITE</h6> <!--edit skills-->
+                                        <h6 class="skillbar-percent">90%</h6> <!--edit percentage-->
+
+                                        <div class="skillbar-bar">
+                                            <div class="skillbar-child"></div>
+                                        </div>
+
+                                    </div>
+                                    <!-- end skillbar -->
+
+                                </div>
+
+
+                                <div class="col-md-12">
+
+                                    <!-- skillbar -->
+                                    <div class="skillbar" data-percent="20%"> <!--edit percentage-->
+
+                                        <h6 class="skillbar-title">JSON</h6> <!--edit skills-->
+                                        <h6 class="skillbar-percent">20%</h6> <!--edit percentage-->
+
+                                        <div class="skillbar-bar">
+                                            <div class="skillbar-child"></div>
+                                        </div>
+
+                                    </div>
+                                    <!-- end skillbar -->
+
+                                </div>
+
+                                <div class="col-md-12">
+
+                                    <!-- skillbar -->
+                                    <div class="skillbar" data-percent="50%"> <!--edit percentage-->
+
+                                        <h6 class="skillbar-title">SQL</h6> <!--edit skills-->
+                                        <h6 class="skillbar-percent">50%</h6> <!--edit percentage-->
+
+                                        <div class="skillbar-bar">
+                                            <div class="skillbar-child"></div>
+                                        </div>
+
+                                    </div>
+                                    <!-- end skillbar -->
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
         </div>
-        </div>
-    </main> 
+    </div>
+
+    <!--about area ends-->
     
-        <div class="footer">
-                 <p><font size="2">@Copyright Khalid Muhammad</font></p>
+    <!--Services Area Starts-->
+
+    <div id="services" class="services-area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header wow fadeInDown" data-wow-delay="0.2s">
+                        <p class="line-one"></p>
+                        <h2>What I Offer</h2>
+                        <p class="line-one"></p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div id="services-carousel" class="owl-carousel owl-theme">
+
+                    <div class="single-services text-center item">
+                        <div class="services-icon">
+                            <i class="fa fa-joomla"></i>
+                        </div>
+                        <div class="services-content">
+                            <h3>Branding</h3> <!--edit the service you give-->
+                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        </div>
+
+                    </div>
+
+                    <div class="single-services text-center item">
+                        <div class="services-icon">
+                            <i class="fa fa-slack"></i>
+                        </div>
+                        <div class="services-content">
+                            <h3>Web Design</h3> <!--edit the service you give-->
+                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="single-services text-center item">
+                        <div class="services-icon">
+                            <i class="fa fa-yelp"></i>
+                        </div>
+                        <div class="services-content">
+                            <h3>Photography</h3> <!--edit the service you give-->
+                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="single-services text-center item">
+                        <div class="services-icon">
+                            <i class="fa fa-viacoin"></i>
+                        </div>
+                        <div class="services-content">
+                            <h3>Graphics Design</h3> <!--edit the service you give-->
+                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="single-services text-center item">
+                        <div class="services-icon">
+                            <i class="fa fa-google-wallet"></i>
+                        </div>
+                        <div class="services-content">
+                            <h3>Art Work</h3> <!--edit the service you give-->
+                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        </div>
+                    </div>
+
+
+                    <div class="single-services text-center item">
+                        <div class="services-icon">
+                            <i class="fa fa-renren"></i>
+                        </div>
+                        <div class="services-content">
+                            <h3>App Development</h3> <!--edit the service you give-->
+                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
         </div>
+    </div>
 
-        
-        
-               
+    <!--Services Area Ends-->
+    
+	<!--number area starts-->
 
+	<div class="number-area section-padding">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-xs-6">
+					<div class="single-number text-center">
+						<i class="fa fa-clock-o"></i>
+						<h2 class="counter">3015</h2> <!--edit-->
+						<p>Hours Worked</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-xs-6">
+					<div class="single-number text-center">
+						<i class="fa fa-code"></i>
+						<h2 class="counter">6589</h2> <!--edit-->
+						<p>Lines of Code</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-xs-6">
+					<div class="single-number text-center">
+						<i class="fa fa-user"></i>
+						<h2 class="counter">723</h2> <!--edit-->
+						<p>Happy Customers</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-xs-6">
+					<div class="single-number text-center">
+						<i class="fa fa-certificate"></i>
+						<h2 class="counter">1</h2> <!--edit-->
+						<p>Certfications</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--number area ends-->
+   
+	<!--Portfolio Area Starts-->
+
+	<div id="portfolio" class="portfolio-area section-padding">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="section-header wow fadeInDown" data-wow-delay="0.2s">
+						<p class="line-one"></p>
+						<h2>My Works</h2>
+						<p class="line-one"></p>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+
+                <div class="portfolio-items">
+
+                    <div class="col-md-4 col-sm-6 col-xs-12 no-pad">
+                        <div id="inline-popups" class="port-box">
+                            <a href="#test-popup" data-effect="mfp-zoom-out">
+                                <div class="hovereffect">
+
+                                    <img src="images/portfolio/password gen.png" alt="portfolio image" class="img-responsive"> <!--edit image-->
+                                    <div class="overlay">
+                                        <h2>Password Project</h2> <!--your project name-->
+                                        <p>Create an application that generates a random password based on user-selected criteria.</p>
+                                    </div>
+
+                                </div>
+                            </a>
+                        </div>
+                        <div id="test-popup" class="white-popup mfp-with-anim mfp-hide">
+                            <div class="row">
+                                <div class="col-md-7 col-xs-12">
+                                    <div class="por-img">
+                                        <img src="images/portfolio/password gen.png" alt="portfolio image" class="img-responsive"> <!--edit image-->
+                                    </div>
+                                </div>
+                                <div class="col-md-5 col-xs-12">
+                                    <div class="por-text">
+                                        <h2>Password Generator</h2> <!--your project title-->
+                                        <p>Create an application that generates a random password based on user-selected criteria.</p>
+                                        <div class="por-text-details">
+                                            <div class="row">
+                                                <div class="col-xs-4">
+                                                    <p>Client: </p>
+                                                    <p>Completed:</p>
+                                                    <p>Type:</p>
+                                                    <p>link:</p>
+                                                </div>
+                                                <div class="col-xs-offset-1 col-xs-7">
+                                                    <p>Case Western</p> <!--edit here-->
+                                                    <p>11/23/2019</p> <!--edit here-->
+                                                    <p>JAVASCRIPT</p> <!--edit here-->
+                                                    <p>https://khalidm53.github.io/Random-Password-Generator-/</p> <!--edit here-->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 col-xs-12 no-pad">
+
+                        <div id="inline-popups-2">
+                            <a href="#test-popup-2" data-effect="mfp-zoom-out">
+                                <div class="hovereffect">
+
+                                    <img src="images/portfolio/quiz game.png" alt="portfolio image" class="img-responsive"> <!--edit image-->
+                                    <div class="overlay">
+                                        <h2>Quiz Project</h2> <!--your project name-->
+                                        <p>Clicking the "Start Quiz" button presents the user with a series of questions. The timer is initialized with a value and immediately begins countdown.</p>
+                                    </div>
+
+                                </div>
+                            </a>
+                        </div>
+                        <div id="test-popup-2" class="white-popup mfp-with-anim mfp-hide">
+                            <div class="row">
+
+                                <div class="col-md-7">
+                                    <div class="por-img">
+                                        <img src="images/portfolio/quiz game.png" alt="portfolio image" class="img-responsive"> <!--edit image-->
+                                    </div>
+                                </div>
+                                <div class="col-md-5">
+                                    <div class="por-text">
+                                        <h2>Code Quiz Game</h2> <!--your project title-->
+                                        <p>Clicking the "Start Quiz" button presents the user with a series of questions. The timer is initialized with a value and immediately begins countdown.</p>
+                                        <div class="por-text-details">
+                                            <div class="row">
+                                                <div class="col-xs-4">
+                                                    <p>Client: </p>
+                                                    <p>Completed:</p>
+                                                    <p>Type:</p>
+                                                    <p>link:</p>
+                                                </div>
+                                                <div class="col-xs-offset-1 col-xs-7">
+                                                    <p>Case Western</p> <!--edit here-->
+                                                    <p>12/03/2019</p> <!--edit here-->
+                                                    <p>JAVASCRIPT</p> <!--edit here-->
+                                                    <p>https://khalidm53.github.io/Code-Quiz/</p> <!--edit here-->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 col-xs-12 no-pad">
+
+                        <div id="inline-popups-3">
+                            <a href="#test-popup-3" data-effect="mfp-zoom-out">
+                                <div class="hovereffect">
+
+                                    <img src="images/portfolio/todo list.png" alt="portfolio image" class="img-responsive"> <!--edit image-->
+                                    <div class="overlay">
+                                        <h2>To Do List Project</h2> <!--your project name-->
+                                        <p>For this app I created an to do list that allows the user to enter a task. once entered the task will but put under the not complete section</p>
+                                    </div>
+
+                                </div>
+                            </a>
+                        </div>
+                        <div id="test-popup-3" class="white-popup mfp-with-anim mfp-hide">
+                            <div class="row">
+
+                                <div class="col-md-7">
+                                    <div class="por-img">
+                                        <img src="images/portfolio/todo list.png" alt="portfolio image" class="img-responsive"> <!--edit image-->
+                                    </div>
+                                </div>
+                                <div class="col-md-5">
+                                    <div class="por-text">
+                                        <h2>To Do List</h2> <!--your project title-->
+                                        <p>For this app I created an to do list that allows the user to enter a task. once entered the task will but put under the not complete section</p>
+                                        <div class="por-text-details">
+                                            <div class="row">
+                                                <div class="col-xs-4">
+                                                    <p>Client: </p>
+                                                    <p>Completed:</p>
+                                                    <p>Type:</p>
+                                                    <p>link:</p>
+                                                </div>
+                                                <div class="col-xs-offset-1 col-xs-7">
+                                                    <p>Case Western</p> <!--edit here-->
+                                                    <p>12/16/2019</p> <!--edit here-->
+                                                    <p>JQUERY</p> <!--edit here-->
+                                                    <p>https://khalidm53.github.io/Calendar-/</p> <!--edit here-->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 col-xs-12 no-pad">
+
+                        <div id="inline-popups-4">
+                            <a href="#test-popup-4" data-effect="mfp-zoom-out">
+                                <div class="hovereffect">
+
+                                    <img src="images/portfolio/weather dash.png" alt="portfolio image" class="img-responsive"> <!--edit image-->
+                                    <div class="overlay">
+                                        <h2>Weather App Project</h2> <!--your project name-->
+                                        <p>create a weather application that allows the user to Display the following under current weather conditions: City, Date,Icon image (visual representation of weather conditions),Temperature,Humidity,Wind speed, and UV index</p>
+                                    </div>
+
+                                </div>
+                            </a>
+                        </div>
+                        <div id="test-popup-4" class="white-popup mfp-with-anim mfp-hide">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <div class="por-img">
+                                        <img src="images/portfolio/weather dash.png" alt="portfolio image" class="img-responsive"> <!--edit image-->
+                                    </div>
+                                </div>
+                                <div class="col-md-5">
+                                    <div class="por-text">
+                                        <h2>Weather Dashboard</h2> <!--your project title-->
+                                        <p>create a weather application that allows the user to Display the following under current weather conditions: City, Date,Icon image (visual representation of weather conditions),Temperature,Humidity,Wind speed, and UV index</p>
+                                        <div class="por-text-details">
+                                            <div class="row">
+                                                <div class="col-xs-4">
+                                                    <p>Client: </p>
+                                                    <p>Completed:</p>
+                                                    <p>Type:</p>
+                                                    <p>link:</p>
+                                                </div>
+                                                <div class="col-xs-offset-1 col-xs-7">
+                                                    <p>Case Western</p> <!--edit here-->
+                                                    <p>12/21/2019</p> <!--edit here-->
+                                                    <p>JQUERY</p> <!--edit here-->
+                                                    <p>https://khalidm53.github.io/Weather-Dashboard/</p> <!--edit here-->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 col-xs-12 no-pad">
+
+                        <div id="inline-popups-5">
+                            <a href="#test-popup-5" data-effect="mfp-zoom-out">
+                                <div class="hovereffect">
+
+                                    <img src="images/portfolio/port5.png" alt="portfolio image" class="img-responsive"> <!--edit image-->
+                                    <div class="overlay">
+                                        <h2>Project Five</h2> <!--your project name-->
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, dolores, velit. Accusantium mollitia obcaecati quos.</p>
+                                    </div>
+
+                                </div>
+                            </a>
+                        </div>
+                        <div id="test-popup-5" class="white-popup mfp-with-anim mfp-hide">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <div class="por-img">
+                                        <img src="images/portfolio/port5.png" alt="portfolio image" class="img-responsive"> <!--edit image-->
+                                    </div>
+                                </div>
+                                <div class="col-md-5">
+                                    <div class="por-text">
+                                        <h2>My Project Title</h2> <!--your project title-->
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, delectus deserunt eum eveniet, illo iste magni nobis non omnis quia</p>
+                                        <div class="por-text-details">
+                                            <div class="row">
+                                                <div class="col-xs-4">
+                                                    <p>Client: </p>
+                                                    <p>Completed:</p>
+                                                    <p>Type:</p>
+                                                    <p>link:</p>
+                                                </div>
+                                                <div class="col-xs-offset-1 col-xs-7">
+                                                    <p>Titan</p> <!--edit here-->
+                                                    <p>15/03/2018</p> <!--edit here-->
+                                                    <p>Magento Site</p> <!--edit here-->
+                                                    <p>www.titan.co.in</p> <!--edit here-->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 col-xs-12 no-pad">
+
+                        <div id="inline-popups-6">
+                            <a href="#test-popup-6" data-effect="mfp-zoom-out">
+                                <div class="hovereffect">
+
+                                    <img src="images/portfolio/port6.png" alt="portfolio image" class="img-responsive"> <!--edit image-->
+                                    <div class="overlay">
+                                        <h2>Project Six</h2> <!--your project name-->
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, dolores, velit. Accusantium mollitia obcaecati quos.</p>
+                                    </div>
+
+                                </div>
+                            </a>
+                        </div>
+                        <div id="test-popup-6" class="white-popup mfp-with-anim mfp-hide">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <div class="por-img">
+                                        <img src="images/portfolio/port6.png" alt="portfolio image" class="img-responsive"> <!--edit image-->
+                                    </div>
+                                </div>
+                                <div class="col-md-5">
+                                    <div class="por-text">
+                                        <h2>My Project Title</h2> <!--your project title-->
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, delectus deserunt eum eveniet, illo iste magni nobis non omnis quia</p>
+                                        <div class="por-text-details">
+                                            <div class="row">
+                                                <div class="col-xs-4">
+                                                    <p>Client: </p>
+                                                    <p>Completed:</p>
+                                                    <p>Type:</p>
+                                                    <p>link:</p>
+                                                </div>
+                                                <div class="col-xs-offset-1 col-xs-7">
+                                                    <p>Vodafone</p> <!--edit here-->
+                                                    <p>27/03/2018</p> <!--edit here-->
+                                                    <p>PrestaShop Site</p> <!--edit here-->
+                                                    <p>www.vodafone.com</p> <!--edit here-->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div> <!--end portfolio grid -->
+
+            </div>
+
+
+		</div>
+	</div>
+
+	<!--Portfolio Area Ends-->
+   
+
+    <!--contact area starts-->
+
+    <div class="contact-area section-padding" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header wow fadeInDown" data-wow-delay="0.2s">
+                        <p class="line-one"></p>
+                        <h2>Contact</h2>
+                        <p class="line-one"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="single-contact text-center wow fadeInDown" data-wow-delay="0.4s">
+                        <i class="fa fa-home"></i>
+                        <h2>Location</h2>
+                        <p>Cleveland, USA</p> 
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="single-contact text-center wow fadeInDown" data-wow-delay="0.6s">
+                        <i class="fa fa-phone"></i>
+                        <h2>Phone: </h2>
+                        <p>216-849-5283</p> 
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="single-contact text-center wow fadeInDown" data-wow-delay="0.8s">
+                        <i class="fa fa-envelope-o"></i>
+                        <h2>Email</h2>
+                        <p>khalid-muhammad@live.com</p> 
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="single-contact text-center wow fadeInDown" data-wow-delay="1s">
+                        <i class="fa fa-gg"></i>
+                        <h2>Social Media: </h2>
+                        <div class="socials">
+                            <a href="https://www.facebook.com/profile.php?id=100008922693094" target="_blank"><i class="fa fa-facebook"></i></a> 
+                            <a href="https://www.linkedin.com/in/khalid-muhammad-221b7ab3/" target="_blank"><i class="fa fa-linkedin"></i></a> 
+                            <a href="https://www.instagram.com/khalid_jaleel/" target="_blank"><i class="fa fa-instagram"></i></a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-10 col-md-offset-1">
+                    <form id="contact-form" method="post" action="contact.php" class="wow fadeInDown" data-wow-delay="1.2s">
+
+                        <div class="messages"></div> <!--you can change the message in contact.php file -->
+
+                        <div class="controls">
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Enter your full name *" required="required" data-error="Fullname is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input id="form_email" type="email" name="email" class="form-control" placeholder="Enter your email *" required="required" data-error="Valid email is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <textarea id="form_message" name="message" class="form-control" placeholder="Your Message *" rows="4" required="required" data-error="Leave a message for me"></textarea>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <button class="btn btn-send" value="">Send message</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--contact area ends-->
+
+    <!--Brand area starts-->
+
+    <div class="brand-area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-xs-6 col-sm-3">
+                    <div class="brand-logo-img wow fadeInDown" data-wow-delay="0.2s">
+                        <img src="images/brand/brand-1.png" alt="brand image"> <!--edit image-->
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-6 col-sm-3">
+                    <div class="brand-logo-img wow fadeInDown" data-wow-delay="0.4s">
+                        <img src="images/brand/brand-2.png" alt="brand image"> <!--edit image-->
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-6 col-sm-3">
+                    <div class="brand-logo-img wow fadeInDown" data-wow-delay="0.6s">
+                        <img src="images/brand/brand-3.png" alt="brand image"> <!--edit image-->
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-6 col-sm-3">
+                    <div class="brand-logo-img wow fadeInDown" data-wow-delay="0.8s">
+                        <img src="images/brand/brand-4.png" alt="brand image"> <!--edit image-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Brand area ends-->
+
+    <!--Footer Area Starts-->
+
+    <div class="footer-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                    <p>&copy; All Right Reserved By <!--edit here-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer Area Ends-->
+
+    
+
+
+
+    <!--Latest version JQuery-->
+    <script src="js/jquery-3.2.1.min.js"></script>
+
+    <!--Bootstrap js-->
+    <script src="js/bootstrap.min.js"></script>
+
+	<!--Magnific popup js-->
+	<script src="js/jquery.magnific-popup.js"></script>
+
+	<!--Owl Carousel js-->
+	<script src="js/owl.carousel.js"></script>
+
+	<!--wow js-->
+	<script src="js/wow.min.js"></script>
+
+    <!--Animated headline js-->
+    <script src="js/jquery.animatedheadline.js"></script>
+    
+    <!--Validator js-->
+    <script src="js/jquery.waypoints.js"></script>
+    
+	<!--counter up js-->
+	<script src="js/jquery.counterup.min.js"></script>
+
+    <!--Validator js-->
+    <script src="js/validator.js"></script>
+
+    <!--Contact js-->
+    <script src="js/contact.js"></script>
+
+    <!--Main js-->
+    <script src="js/main.js"></script>
+    
+    <script>
+
+	</script>
+</body>
 </html>
