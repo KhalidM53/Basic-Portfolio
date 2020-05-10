@@ -1,7 +1,7 @@
 Portfolio
 Mobile Friendly Porfolio containing resume, projects, skills, and contact information.
 
-![Image description](link-to-image)
+![rsz_screen_shot_2020-05-10_at_52957_pm.png](link-to-image)
 
 
 
